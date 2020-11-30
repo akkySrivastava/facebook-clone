@@ -1,0 +1,9 @@
+.storyreel {
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.storyreel::-webkit-scrollbar {
+  display: none;
+}

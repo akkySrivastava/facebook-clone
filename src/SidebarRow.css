@@ -1,0 +1,23 @@
+.sidebarRow {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.sidebarRow:hover {
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.sidebarRow > .sidebarRow__image {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.sidebarRow > h4 {
+  color: rgba(0, 0, 0, 0.6);
+  margin-left: 20px;
+}
